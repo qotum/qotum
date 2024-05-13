@@ -1,0 +1,16 @@
+{
+  "name": "@qotum/biome-config",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./biome": "./biome.json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "qotum",
+  "devDependencies": {
+    "@biomejs/biome": "^1.7.3"
+  }
+}
