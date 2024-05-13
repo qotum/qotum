@@ -34,6 +34,18 @@ importers:
         specifier: ^18
         version: 18.3.1(react@18.3.1)
     devDependencies:
+      '@biomejs/biome':
+        specifier: ^1.7.3
+        version: 1.7.3
+      '@pandacss/dev':
+        specifier: ^0.39.1
+        version: 0.39.1(typescript@5.3.3)
+      '@qotum/biome-config':
+        specifier: workspace:*
+        version: link:../../packages/biome-config
+      '@qotum/panda-preset':
+        specifier: workspace:*
+        version: link:../../packages/panda-preset
       '@types/node':
         specifier: ^20
         version: 20.12.11

@@ -1,3 +1,13 @@
+import { css } from "../../styled-system/css"
+
 export default function Home() {
-  return <main>test APP</main>
+  return (
+    <main
+      className={css({
+        backgroundColor: "brands.accent",
+      })}
+    >
+      test APP
+    </main>
+  )
 }
