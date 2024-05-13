@@ -1,10 +1,10 @@
-import { definePreset } from "@pandacss/dev";
-import { tokens } from "./tokens";
-import { semanticTokens } from "./semantics-tokens";
+import { definePreset } from "@pandacss/dev"
+import { semanticTokens } from "./semantics-tokens"
+import { tokens } from "./tokens"
 
 export default definePreset({
   theme: {
     tokens,
     semanticTokens,
   },
-});
+})
