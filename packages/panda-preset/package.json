@@ -9,6 +9,7 @@
   "keywords": [],
   "author": "qotum",
   "devDependencies": {
-    "@pandacss/dev": "^0.39.1"
+    "@pandacss/dev": "^0.39.1",
+    "@pandacss/types": "^0.39.1"
   }
 }
