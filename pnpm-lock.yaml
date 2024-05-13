@@ -12,6 +12,9 @@ importers:
         specifier: ^2.27.1
         version: 2.27.1
     devDependencies:
+      '@qotum/biome-config':
+        specifier: workspace:*
+        version: link:packages/biome-config
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
