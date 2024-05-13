@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main
       className={css({
-        backgroundColor: "brands.accent",
+        backgroundColor: "brand",
       })}
     >
       test APP
