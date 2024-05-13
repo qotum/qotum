@@ -1,5 +1,11 @@
-export const brands = {
-  accent: {
+export const brand = {
+  DEFAULT: {
+    value: {
+      _light: "{colors.violet.500}",
+      _dark: "{colors.violet.500}",
+    },
+  },
+  primary: {
     value: {
       _light: "{colors.violet.500}",
       _dark: "{colors.violet.500}",
