@@ -1,3 +1,8 @@
 import { definePreset } from "@pandacss/dev";
+import { tokens } from "./tokens";
 
-export default definePreset({});
+export default definePreset({
+  theme: {
+    tokens,
+  },
+});
