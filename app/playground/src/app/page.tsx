@@ -1,8 +1,7 @@
+import { Button } from "@qotum/panda-preset";
+import { HStack, Stack, VStack } from "@styled-system/jsx";
 import { css } from "../../styled-system/css";
 import { center } from "../../styled-system/patterns";
-import { HStack, Stack, VStack } from "@styled-system/jsx";
-
-import { Button } from "@qotum/design-system";
 
 export default function Home() {
   return (

@@ -4,9 +4,13 @@
   "description": "PandaCSS preset for qotum",
   "main": "src/index.ts",
   "keywords": [],
+  "scripts": {
+    "prepare": "panda codegen"
+  },
   "author": "qotum",
   "devDependencies": {
     "@pandacss/dev": "^0.39.1",
-    "@pandacss/types": "^0.39.1"
+    "@pandacss/types": "^0.39.1",
+    "@qotum/panda-exports": "workspace:*"
   }
 }

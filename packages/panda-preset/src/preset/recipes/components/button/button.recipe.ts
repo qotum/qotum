@@ -1,5 +1,5 @@
 import { defineRecipe } from "@pandacss/dev";
-import { hexToRGBA } from "../../../utils/hexToRGBA";
+import { hexToRGBA } from "../../../../utils/hexToRGBA";
 
 export const buttonRecipe = defineRecipe({
   className: "button",

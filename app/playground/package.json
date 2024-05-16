@@ -16,7 +16,6 @@
   },
   "devDependencies": {
     "@qotum/biome-config": "workspace:*",
-    "@qotum/design-system": "workspace:*",
     "@qotum/panda-preset": "workspace:*",
     "@biomejs/biome": "^1.7.3",
     "@pandacss/dev": "^0.39.1",
