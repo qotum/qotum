@@ -10,4 +10,7 @@ export const tokens = defineTokens({
   colors,
   spacing,
   fontWeights,
+  fonts: {
+    body: { value: ["Figtree", "sans-serif"] },
+  },
 })

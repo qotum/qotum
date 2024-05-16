@@ -1,10 +1,17 @@
-import { definePreset } from "@pandacss/dev"
-import { semanticTokens } from "./semantics-tokens"
-import { tokens } from "./tokens"
+import { definePreset } from "@pandacss/dev";
 
-export default definePreset({
+import { recipes } from "./recipes";
+import { tokens } from "./tokens";
+import { semanticTokens } from "./semantics-tokens";
+
+const qotumPreset = definePreset({
   theme: {
     tokens,
     semanticTokens,
+    extend: {
+      recipes,
+    },
   },
-})
+});
+
+export default qotumPreset;
