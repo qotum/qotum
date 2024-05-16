@@ -1,5 +1,5 @@
-import { defineConfig } from "@pandacss/dev"
-import qotumPreset from "@qotum/panda-preset"
+import { defineConfig } from "@pandacss/dev";
+import qotumPreset from "@qotum/panda-preset";
 
 export default defineConfig({
   // Whether to use css reset
@@ -16,11 +16,7 @@ export default defineConfig({
   // Files to exclude
   exclude: [],
 
-  // Useful for theme customization
-  theme: {
-    extend: {},
-  },
-
+  jsxFramework: "react",
   // The output directory for your css system
   outdir: "styled-system",
-})
+});

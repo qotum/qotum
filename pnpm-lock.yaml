@@ -22,7 +22,7 @@ importers:
         specifier: latest
         version: 1.13.3
 
-  app/test-app:
+  app/playground:
     dependencies:
       next:
         specifier: 14.2.3
@@ -43,6 +43,9 @@ importers:
       '@qotum/biome-config':
         specifier: workspace:*
         version: link:../../packages/biome-config
+      '@qotum/design-system':
+        specifier: workspace:*
+        version: link:../../packages/design-system
       '@qotum/panda-preset':
         specifier: workspace:*
         version: link:../../packages/panda-preset
@@ -64,6 +67,18 @@ importers:
       '@biomejs/biome':
         specifier: ^1.7.3
         version: 1.7.3
+
+  packages/design-system:
+    devDependencies:
+      '@pandacss/dev':
+        specifier: ^0.39.1
+        version: 0.39.1(typescript@5.3.3)
+      '@qotum/biome-config':
+        specifier: workspace:*
+        version: link:../biome-config
+      '@qotum/panda-preset':
+        specifier: workspace:*
+        version: link:../panda-preset
 
   packages/panda-preset:
     devDependencies:
