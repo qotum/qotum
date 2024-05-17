@@ -10,15 +10,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@qotum/panda-exports": "workspace:^1.0.0",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@qotum/biome-config": "workspace:*",
-    "@qotum/panda-preset": "workspace:*",
     "@biomejs/biome": "^1.7.3",
     "@pandacss/dev": "^0.39.1",
+    "@qotum/biome-config": "workspace:*",
+    "@qotum/panda-preset": "workspace:*",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

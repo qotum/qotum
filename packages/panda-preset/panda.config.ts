@@ -13,9 +13,9 @@ export default defineConfig({
   // Files to exclude
   exclude: [],
 
-  importMap: "@qotum/panda-exports/styled-system",
+  importMap: "@qotum/panda-exports",
 
   jsxFramework: "react",
   // The output directory for your css system
-  outdir: "styled-system",
+  outdir: "../panda-exports/dist",
 });
