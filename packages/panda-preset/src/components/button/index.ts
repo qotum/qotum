@@ -1,4 +1,4 @@
-import { styled } from "../../../styled-system/jsx";
-import { button } from "../../../styled-system/recipes";
+import { styled } from "@qotum/panda-exports/jsx";
+import { button } from "@qotum/panda-exports/recipes";
 
 export const Button = styled("button", button);

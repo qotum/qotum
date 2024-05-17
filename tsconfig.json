@@ -26,7 +26,6 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "styled-system"
   ],
   "exclude": ["node_modules"]
 }

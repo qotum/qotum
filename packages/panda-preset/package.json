@@ -2,7 +2,11 @@
   "name": "@qotum/panda-preset",
   "version": "1.0.0",
   "description": "PandaCSS preset for qotum",
-  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./config": "./panda.config.ts",
+    "./preset": "./src/preset/index.ts"
+  },
   "keywords": [],
   "scripts": {
     "prepare": "panda codegen"

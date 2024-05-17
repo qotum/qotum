@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { css, cx } from "../../styled-system/css";
+import { css, cx } from "@qotum/panda-exports/css";
 import "../styles/globals.css";
 
 const bodyStyles = css({
