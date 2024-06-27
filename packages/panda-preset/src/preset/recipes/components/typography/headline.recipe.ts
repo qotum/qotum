@@ -11,11 +11,11 @@ export const headlineRecipe = defineRecipe({
   },
   variants: {
     size: {
-      primary: {
+      large: {
         fontsize: "7rem",
         lineHeight: "70px",
       },
-      secondary: {
+      medium: {
         fontsize: "4rem",
         lineHeight: "45px",
       },
@@ -25,9 +25,20 @@ export const headlineRecipe = defineRecipe({
         fontStyle: "italic",
       },
     },
+    color: {
+      primary: {
+        color: "token(colors.primary.content)",
+      },
+      secondary: {
+        color: "token(colors.primary.content.subtle)",
+      },
+      brand: {
+        color: "token(colors.brand)",
+      },
+    },
   },
   defaultVariants: {
-    size: "primary",
+    size: "medium",
     italic: false,
   },
 });
