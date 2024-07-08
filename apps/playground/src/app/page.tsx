@@ -128,6 +128,16 @@ export default function Home() {
           </HStack>
         </Stack>
         <Headline>GROS TITRE</Headline>
+        <Headline size="medium">GROS TITRE mais en plus petit</Headline>
+        <Headline size="medium" color="brand">
+          avec de la couleur violete !
+        </Headline>
+        <Headline size="medium" color="secondary">
+          ou grise
+        </Headline>
+        <Headline size="medium" italic>
+          lopoticha
+        </Headline>
       </VStack>
     </main>
   );
