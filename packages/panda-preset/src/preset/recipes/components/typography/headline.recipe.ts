@@ -38,7 +38,8 @@ export const headlineRecipe = defineRecipe({
     },
   },
   defaultVariants: {
-    size: "medium",
+    size: "large",
     italic: false,
+    color: "primary",
   },
 });

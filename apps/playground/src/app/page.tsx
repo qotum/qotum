@@ -1,4 +1,4 @@
-import { Button } from "@qotum/panda-preset";
+import { Button, Headline } from "@qotum/panda-preset";
 import { HStack, Stack, VStack } from "@qotum/panda-exports/jsx";
 import { css } from "@qotum/panda-exports/css";
 import { center } from "@qotum/panda-exports/patterns";
@@ -127,6 +127,7 @@ export default function Home() {
             </Button>
           </HStack>
         </Stack>
+        <Headline>GROS TITRE</Headline>
       </VStack>
     </main>
   );
