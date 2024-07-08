@@ -1,22 +1,22 @@
 import { defineRecipe } from "@pandacss/dev";
 
 export const headlineRecipe = defineRecipe({
-  className: "typography typography--headline",
+  className: "typography--headline",
   description:
     "The styles for the Headline typography component, used for the largest headings on the page",
   base: {
     fontFamily: "Figtree",
-    fontWeight: "token(fontWeights.bold)",
+    fontWeight: "bold",
     fontStyle: "normal",
   },
   variants: {
     size: {
       large: {
-        fontsize: "7rem",
+        fontSize: "7rem",
         lineHeight: "70px",
       },
       medium: {
-        fontsize: "4rem",
+        fontSize: "4rem",
         lineHeight: "45px",
       },
     },
@@ -27,13 +27,13 @@ export const headlineRecipe = defineRecipe({
     },
     color: {
       primary: {
-        color: "token(colors.primary.content)",
+        color: "primary.content",
       },
       secondary: {
-        color: "token(colors.primary.content.subtle)",
+        color: "primary.content.subtle",
       },
       brand: {
-        color: "token(colors.brand)",
+        color: "brand",
       },
     },
   },
