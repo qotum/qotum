@@ -1,5 +1,11 @@
 # @qotum/panda-preset
 
+## 1.1.2
+
+### Patch Changes
+
+- 6af6e83: Update typescript types
+
 ## 1.1.1
 
 ### Patch Changes
