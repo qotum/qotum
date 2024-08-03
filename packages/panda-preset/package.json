@@ -9,12 +9,22 @@
   },
   "keywords": [],
   "scripts": {
-    "prepare": "panda codegen"
+    "prepare": "panda codegen",
+    "build": "tsup",
+    "dev": "tsup --watch"
   },
   "author": "qotum",
   "devDependencies": {
     "@pandacss/dev": "^0.39.1",
     "@pandacss/types": "^0.39.1",
-    "@qotum/panda-exports": "workspace:*"
+    "@qotum/panda-exports": "workspace:*",
+    "@types/react": "^18.3.3",
+    "next": "14.2.3",
+    "react": "^18.3.1",
+    "tsup": "^8.2.4"
+  },
+  "peerDependencies": {
+    "next": ">= 14.x.x",
+    "react": ">= 18.x.x"
   }
 }
