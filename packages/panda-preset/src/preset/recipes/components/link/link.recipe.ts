@@ -1,7 +1,7 @@
 import { defineRecipe } from "@pandacss/dev"
 
 export const linkRecipe = defineRecipe({
-  className: "link",
+  className: "a",
   description: "The styles for the Link component",
   base: {
     cursor: "pointer",
