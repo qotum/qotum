@@ -1,6 +1,7 @@
-import { buttonRecipe, headlineRecipe } from "./components"
+import { buttonRecipe, headlineRecipe, linkRecipe } from "./components";
 
 export const recipes = {
-  button: buttonRecipe,
-  headline: headlineRecipe,
-}
+	button: buttonRecipe,
+	link: linkRecipe,
+	headline: headlineRecipe,
+};

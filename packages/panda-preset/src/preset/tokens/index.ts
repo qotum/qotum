@@ -1,16 +1,17 @@
-import type { Tokens } from "@pandacss/types"
+import type { Tokens } from "@pandacss/types";
 
-import { colors } from "./colors"
-import { spacing } from "./dimensions"
-import { fontWeights } from "./texts"
+import { colors } from "./colors";
+import { spacing } from "./dimensions";
+import { fontWeights, fontSizes } from "./texts";
 
-const defineTokens = <T extends Tokens>(v: T) => v
+const defineTokens = <T extends Tokens>(v: T) => v;
 
 export const tokens = defineTokens({
-  colors,
-  spacing,
-  fontWeights,
-  fonts: {
-    body: { value: ["Figtree", "sans-serif"] },
-  },
-})
+	colors,
+	spacing,
+	fontWeights,
+	fontSizes,
+	fonts: {
+		body: { value: ["Figtree", "sans-serif"] },
+	},
+});

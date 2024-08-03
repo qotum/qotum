@@ -1,7 +1,7 @@
 import { css } from "@qotum/panda-exports/css"
 import { HStack, Stack, VStack } from "@qotum/panda-exports/jsx"
 import { center } from "@qotum/panda-exports/patterns"
-import { Button, Headline } from "@qotum/panda-preset"
+import { Button, Headline, Link } from "@qotum/panda-preset"
 
 export default function Home() {
   return (
@@ -138,6 +138,13 @@ export default function Home() {
         <Headline size="medium" italic>
           lopoticha
         </Headline>
+      </VStack>
+      <VStack>
+        <Link href={"/#"}>Internal link</Link>
+        <Link href={"https://qotum.app"}>External link https://</Link>
+        <Link href={"qotum.app"}>
+          External link without https:// (should not work)
+        </Link>
       </VStack>
     </main>
   )
