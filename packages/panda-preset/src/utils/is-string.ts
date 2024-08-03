@@ -3,7 +3,7 @@
  */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const isString = (x: unknown) => {
-	return Object.prototype.toString.call(x) === "[object String]";
-};
+  return Object.prototype.toString.call(x) === "[object String]"
+}
 
-export default isString;
+export default isString
