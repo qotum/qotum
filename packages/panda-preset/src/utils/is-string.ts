@@ -3,8 +3,6 @@
  */
 
 // biome-ignore lint/suspicious/noExplicitAny: <explanation>
-const isString = (x: any) => {
+export function isString(x: any) {
   return Object.prototype.toString.call(x) === "[object String]"
 }
-
-export { isString }
