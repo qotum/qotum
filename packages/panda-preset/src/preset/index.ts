@@ -1,9 +1,9 @@
-import type { Config } from "@pandacss/dev";
-import { recipes } from "./recipes";
-import { semanticTokens } from "./semantics-tokens";
-import { tokens } from "./tokens";
+import type { Config } from "@pandacss/dev"
+import { recipes } from "./recipes"
+import { semanticTokens } from "./semantics-tokens"
+import { tokens } from "./tokens"
 
-const defineConfig = <T extends Config>(config: T) => config;
+const defineConfig = <T extends Config>(config: T) => config
 
 export const qotumPreset = defineConfig({
   theme: {
@@ -13,4 +13,4 @@ export const qotumPreset = defineConfig({
       recipes,
     },
   },
-});
+})

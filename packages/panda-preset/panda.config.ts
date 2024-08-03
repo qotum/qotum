@@ -1,5 +1,5 @@
-import { defineConfig } from "@pandacss/dev";
-import { qotumPreset } from "./src/preset";
+import { defineConfig } from "@pandacss/dev"
+import { qotumPreset } from "./src/preset"
 
 export default defineConfig({
   // Whether to use css reset
@@ -18,4 +18,4 @@ export default defineConfig({
   jsxFramework: "react",
   // The output directory for your css system
   outdir: "../panda-exports/dist",
-});
+})

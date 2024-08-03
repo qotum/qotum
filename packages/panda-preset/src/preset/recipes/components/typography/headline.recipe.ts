@@ -1,4 +1,4 @@
-import { defineRecipe } from "@pandacss/dev";
+import { defineRecipe } from "@pandacss/dev"
 
 export const headlineRecipe = defineRecipe({
   className: "typography--headline",
@@ -42,4 +42,4 @@ export const headlineRecipe = defineRecipe({
     italic: false,
     color: "primary",
   },
-});
+})
