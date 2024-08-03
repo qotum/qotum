@@ -7,7 +7,7 @@ import { default as NextLink } from "next/link"
 import type { RecipeVariantProps } from "@pandacss/types"
 import { styled } from "@qotum/panda-exports/jsx"
 import { link } from "@qotum/panda-exports/recipes"
-import isString from "../../utils/is-string"
+import { isString } from "../../utils/is-string"
 
 export type LinkProps = RecipeVariantProps<typeof link> &
   ComponentProps<typeof NextLink>
