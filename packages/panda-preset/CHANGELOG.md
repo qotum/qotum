@@ -1,5 +1,11 @@
 # @qotum/panda-preset
 
+## 1.1.4
+
+### Patch Changes
+
+- a45600e: Fix isString error
+
 ## 1.1.3
 
 ### Patch Changes
