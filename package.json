@@ -5,6 +5,7 @@
     "format-and-lint": "biome check .",
     "format-and-lint:fix": "biome check . --write",
     "build": "turbo build",
+    "build:packages": "turbo build --filter='./packages/*'",
     "dev": "turbo dev",
     "lint": "turbo format-and-lint",
     "lint:fix": "turbo format-and-lint:fix",
