@@ -1,5 +1,11 @@
 # @qotum/panda-preset
 
+## 1.1.3
+
+### Patch Changes
+
+- Update ts config
+
 ## 1.1.2
 
 ### Patch Changes

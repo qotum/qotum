@@ -1,6 +1,6 @@
 {
   "name": "@qotum/biome-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Biome config for qotum's app",
   "type": "module",
   "exports": {
