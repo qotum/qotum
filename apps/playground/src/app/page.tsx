@@ -1,7 +1,7 @@
-import { Button, Headline } from "@qotum/panda-preset";
-import { HStack, Stack, VStack } from "@qotum/panda-exports/jsx";
-import { css } from "@qotum/panda-exports/css";
-import { center } from "@qotum/panda-exports/patterns";
+import { css } from "@qotum/panda-exports/css"
+import { HStack, Stack, VStack } from "@qotum/panda-exports/jsx"
+import { center } from "@qotum/panda-exports/patterns"
+import { Button, Headline } from "@qotum/panda-preset"
 
 export default function Home() {
   return (
@@ -140,5 +140,5 @@ export default function Home() {
         </Headline>
       </VStack>
     </main>
-  );
+  )
 }

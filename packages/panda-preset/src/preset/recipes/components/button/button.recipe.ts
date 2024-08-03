@@ -1,5 +1,5 @@
-import { defineRecipe } from "@pandacss/dev";
-import { hexToRGBA } from "../../../../utils/hexToRGBA";
+import { defineRecipe } from "@pandacss/dev"
+import { hexToRGBA } from "../../../../utils/hexToRGBA"
 
 export const buttonRecipe = defineRecipe({
   className: "button",
@@ -144,5 +144,5 @@ export const buttonRecipe = defineRecipe({
       },
     },
   ],
-});
+})
 // background: linear-gradient(to top, #6937be 0%, rgba(146, 117, 232, 0) 100%);

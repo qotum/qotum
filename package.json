@@ -2,14 +2,20 @@
   "name": "@qotum/root",
   "private": true,
   "scripts": {
+    "format-and-lint": "biome check .",
+    "format-and-lint:fix": "biome check . --write",
     "build": "turbo build",
+    "build:packages": "turbo build --filter='./packages/*'",
+    "build:playground": "turbo build --filter=playground",
     "dev": "turbo dev",
-    "lint": "turbo lint",
+    "lint": "turbo format-and-lint",
+    "lint:fix": "turbo format-and-lint:fix",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "version": "changeset version",
     "release": "changeset publish"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
     "@qotum/biome-config": "workspace:*",
     "prettier": "^3.2.5",
     "turbo": "latest"

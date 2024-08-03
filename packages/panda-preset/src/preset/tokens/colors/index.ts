@@ -1,4 +1,4 @@
-import type { Tokens } from "@pandacss/types";
+import type { Tokens } from "@pandacss/types"
 
 export const colors: Tokens["colors"] = {
   primary: {
@@ -264,4 +264,4 @@ export const colors: Tokens["colors"] = {
     black: { value: "#000000" },
     white: { value: "#ffffff" },
   },
-};
+}

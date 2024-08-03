@@ -20,7 +20,5 @@
     }
   ],
   "platformAutomerge": true,
-  "schedule": [
-    "every weekend"
-  ]
+  "schedule": ["every weekend"]
 }

@@ -1,2 +1,2 @@
-import * as defaultConfig from "../panda.config";
-export { defaultConfig };
+import * as defaultConfig from "../panda.config"
+export { defaultConfig }
