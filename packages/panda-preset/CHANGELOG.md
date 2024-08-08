@@ -1,5 +1,11 @@
 # @qotum/panda-preset
 
+## 1.1.5
+
+### Patch Changes
+
+- 785c822: Update panda config
+
 ## 1.1.4
 
 ### Patch Changes
