@@ -45,9 +45,6 @@ importers:
       '@qotum/panda-exports':
         specifier: workspace:^
         version: link:../../packages/panda-exports
-      '@qotum/panda-preset':
-        specifier: workspace:*
-        version: link:../../packages/panda-preset
       next:
         specifier: 14.2.3
         version: 14.2.3(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -67,6 +64,9 @@ importers:
       '@qotum/biome-config':
         specifier: workspace:*
         version: link:../../packages/biome-config
+      '@qotum/panda-preset':
+        specifier: workspace:*
+        version: link:../../packages/panda-preset
       '@types/node':
         specifier: ^20.14.9
         version: 20.14.9

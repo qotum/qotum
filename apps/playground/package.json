@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@qotum/panda-exports": "workspace:^",
-    "@qotum/panda-preset": "workspace:*",
     "next": "14.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -20,6 +19,7 @@
     "@biomejs/biome": "^1.8.3",
     "@pandacss/dev": "^0.39.2",
     "@qotum/biome-config": "workspace:*",
+    "@qotum/panda-preset": "workspace:*",
     "@types/node": "^20.14.9",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",

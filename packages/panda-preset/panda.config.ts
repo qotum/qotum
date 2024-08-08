@@ -8,7 +8,10 @@ export default defineConfig({
   presets: [qotumPreset],
 
   // Where to look for your css declarations
-  include: ["./src/components/**/*.{ts,tsx,js,jsx}"],
+  include: [
+    "@qotum/panda-exports/styled-system/**/*.{ts,tsx,js,jsx}",
+    "./src/components/**/*.{ts,tsx,js,jsx}",
+  ],
 
   // Files to exclude
   exclude: [],
@@ -17,5 +20,5 @@ export default defineConfig({
 
   jsxFramework: "react",
   // The output directory for your css system
-  outdir: "../panda-exports/dist",
+  outdir: "styled-system",
 })

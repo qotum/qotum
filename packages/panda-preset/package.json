@@ -10,7 +10,7 @@
   "keywords": [],
   "scripts": {
     "prepare": "panda codegen",
-    "build": "tsup",
+    "build": "tsup --external @qotum/panda-exports",
     "dev": "tsup --watch"
   },
   "author": "qotum",
