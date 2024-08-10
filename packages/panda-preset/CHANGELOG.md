@@ -1,5 +1,11 @@
 # @qotum/panda-preset
 
+## 1.1.6
+
+### Patch Changes
+
+- 854088d: Add baseUrl in tsconfig
+
 ## 1.1.5
 
 ### Patch Changes
