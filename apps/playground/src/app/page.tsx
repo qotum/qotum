@@ -1,3 +1,5 @@
+"use client"
+
 import { css } from "@qotum/panda-exports/css"
 import { HStack, Stack, VStack } from "@qotum/panda-exports/jsx"
 import { center } from "@qotum/panda-exports/patterns"

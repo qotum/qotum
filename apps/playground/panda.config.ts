@@ -1,5 +1,5 @@
 import { defineConfig } from "@pandacss/dev"
-import defaultConfig from "@qotum/panda-preset/config"
+import defaultConfig from "@qotum/panda-preset/panda.config"
 
 export default defineConfig({
   ...defaultConfig,
