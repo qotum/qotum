@@ -1,5 +1,11 @@
 # @qotum/panda-preset
 
+## 1.1.8
+
+### Patch Changes
+
+- 0ebf929: Update export
+
 ## 1.1.7
 
 ### Patch Changes
