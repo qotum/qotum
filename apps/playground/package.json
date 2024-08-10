@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "prepare": "panda codegen",
-    "dev": "next dev",
+    "dev": "next --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

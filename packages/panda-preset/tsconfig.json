@@ -16,6 +16,7 @@
     "skipLibCheck": true,
     "noEmit": true,
     "strict": true,
+    "baseUrl": "./src",
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": true,
