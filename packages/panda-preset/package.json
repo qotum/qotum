@@ -24,6 +24,7 @@
   },
   "peerDependencies": {
     "next": ">= 14.x.x",
-    "react": ">= 18.x.x"
+    "react": ">= 18.x.x",
+    "@types/react": "^18.3.3"
   }
 }
