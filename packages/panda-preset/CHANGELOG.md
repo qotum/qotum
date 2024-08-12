@@ -1,5 +1,11 @@
 # @qotum/panda-preset
 
+## 1.1.9
+
+### Patch Changes
+
+- 3dd2b4a: Add @types/react as peer dependency
+
 ## 1.1.8
 
 ### Patch Changes
