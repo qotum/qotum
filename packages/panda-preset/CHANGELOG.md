@@ -1,5 +1,11 @@
 # @qotum/panda-preset
 
+## 1.1.10
+
+### Patch Changes
+
+- a74547d: Add react as import
+
 ## 1.1.9
 
 ### Patch Changes
