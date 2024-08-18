@@ -1,0 +1,45 @@
+{
+  "name": "qotum-landing",
+  "private": true,
+  "scripts": {
+    "dev": "next --turbo",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "docker:build": "docker build . -t tonightpass-website",
+    "docker:run": "docker run -p 3000:3000 tonightpass-website"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.2.5",
+    "@qotum/panda-exports": "workspace:^",
+    "@svgr/webpack": "^8.1.0",
+    "@t3-oss/env-nextjs": "^0.11.0",
+    "@vercel/speed-insights": "^1.0.12",
+    "next": "^14.2.5",
+    "next-mdx-remote": "^5.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.52.2",
+    "react-icons": "^5.3.0",
+    "react-wrap-balancer": "^1.1.1",
+    "usehooks-ts": "^3.1.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^0.39.1",
+    "@pandacss/types": "^0.39.1",
+    "@qotum/biome-config": "workspace:*",
+    "@qotum/panda-preset": "workspace:*",
+    "@types/node": "^22.3.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.4",
+    "webpack": "^5.93.0"
+  },
+  "license": "MIT"
+}
