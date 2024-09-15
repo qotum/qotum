@@ -1,7 +1,7 @@
-import "@/styles/globals.css"
+import "../styles/globals.css";
 
-import { css, cx } from "@qotum/panda-exports/css"
-import type { Metadata } from "next"
+import { css, cx } from "@qotum/panda-exports/css";
+import type { Metadata } from "next";
 
 const bodyStyles = css({
   fontFamily: "body",

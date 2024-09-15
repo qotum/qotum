@@ -1,0 +1,3 @@
+{
+  "extends": ["@qotum/biome-config/biome"]
+}

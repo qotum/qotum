@@ -175,6 +175,9 @@ importers:
       '@types/react-dom':
         specifier: ^18.3.0
         version: 18.3.0
+      typescript:
+        specifier: ^5.5.4
+        version: 5.5.4
       webpack:
         specifier: ^5.93.0
         version: 5.93.0
