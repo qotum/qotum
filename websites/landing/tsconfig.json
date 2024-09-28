@@ -34,7 +34,6 @@
     },
     "types": [
       "node",
-      "mdx"
     ],
     "incremental": true,
     "plugins": [
