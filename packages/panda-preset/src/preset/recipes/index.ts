@@ -1,13 +1,19 @@
 import {
-  buttonRecipe,
-  headlineRecipe,
-  imageRecipe,
-  linkRecipe,
-} from "./components"
+	buttonRecipe,
+	headlineRecipe,
+	imageRecipe,
+	linkRecipe,
+	subtitleRecipe,
+	textRecipe,
+	titleRecipe,
+} from "./components";
 
 export const recipes = {
-  button: buttonRecipe,
-  image: imageRecipe,
-  link: linkRecipe,
-  headline: headlineRecipe,
-}
+	button: buttonRecipe,
+	image: imageRecipe,
+	link: linkRecipe,
+	headline: headlineRecipe,
+	title: titleRecipe,
+	subtitle: subtitleRecipe,
+	text: textRecipe,
+};

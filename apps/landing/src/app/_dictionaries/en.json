@@ -1,0 +1,11 @@
+{
+  "header": {
+    "navbar": {
+      "links": {
+        "features": "Features",
+        "howItWorks": "How it works",
+        "faq": "FAQ"
+      }
+    }
+  }
+}

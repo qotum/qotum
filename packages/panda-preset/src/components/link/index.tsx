@@ -10,7 +10,9 @@ import { link } from "@qotum/panda-exports/recipes"
 import { isString } from "../../utils/is-string"
 
 export type LinkProps = RecipeVariantProps<typeof link> &
-  ComponentProps<typeof NextLink>
+  ComponentProps<typeof NextLink> & {
+    className?: string;
+  }
 
 const StyledLink = styled(NextLink, link)
 

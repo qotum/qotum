@@ -1,0 +1,14 @@
+<svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+  xmlns="http://www.w3.org/2000/svg">
+  <g id="Logo">
+    <rect width="35" height="35" rx="8" fill="url(#paint0_linear_1155_1325)"/>
+    <path id="Rectangle 3" d="M10.8359 13.6786C11.809 9.88559 15.2276 7.23334 19.1434 7.23334V7.23334C23.8802 7.23334 27.7201 11.0732 27.7201 15.81V15.81C27.7201 19.7258 25.0678 23.1444 21.2748 24.1175L8.45579 27.4064C7.90588 27.5475 7.40593 27.0475 7.54701 26.4976L10.8359 13.6786Z" fill="white"/>
+  </g>
+  
+  <defs>
+    <linearGradient id="paint0_linear_1155_1325" x1="0" y1="0" x2="35" y2="35" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E1F24"/>
+      <stop offset="1" stop-color="#16171A"/>
+    </linearGradient>
+  </defs>
+</svg>

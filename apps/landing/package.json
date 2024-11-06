@@ -2,7 +2,7 @@
   "name": "qotum-landing",
   "private": true,
   "scripts": {
-    "dev": "next --turbo",
+    "dev": "next --turbo -p 3000",
     "build": "next build",
     "postbuild": "next-sitemap",
     "start": "next start",
@@ -12,6 +12,7 @@
     "docker:run": "docker run -p 3000:3000 tonightpass-website"
   },
   "dependencies": {
+    "@formatjs/intl-localematcher": "^0.5.4",
     "@hookform/resolvers": "^3.9.0",
     "@mdx-js/loader": "^3.0.1",
     "@mdx-js/react": "^3.0.1",
@@ -20,6 +21,7 @@
     "@svgr/webpack": "^8.1.0",
     "@t3-oss/env-nextjs": "^0.11.0",
     "@vercel/speed-insights": "^1.0.12",
+    "negotiator": "^0.6.3",
     "next": "^14.2.5",
     "next-mdx-remote": "^5.0.0",
     "react": "^18.3.1",
@@ -35,6 +37,7 @@
     "@pandacss/types": "^0.39.1",
     "@qotum/biome-config": "workspace:*",
     "@qotum/panda-preset": "workspace:*",
+    "@types/negotiator": "^0.6.3",
     "@types/node": "^22.3.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",

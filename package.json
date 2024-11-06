@@ -9,6 +9,8 @@
     "build:packages": "turbo build --filter='./packages/*'",
     "build:playground": "turbo build --filter=playground",
     "dev": "turbo dev",
+    "dev:packages": "turbo dev --filter='./packages/*'",
+    "dev:landing": "turbo dev --filter=qotum-landing",
     "lint": "turbo format-and-lint",
     "lint:fix": "turbo format-and-lint:fix",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
